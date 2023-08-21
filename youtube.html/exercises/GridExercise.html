@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Grid </title>
+    <style>
+        .grid-style1{
+            display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 30px;
+
+        }
+        .grid-style2{
+           display: grid;
+           grid-template-columns: 50px 1fr 75px;
+           margin-bottom: 30px;
+        }
+        .grid-style3{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            column-gap: 20px;
+            row-gap: 10px;
+           
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="grid-style1">
+        <div style="background-color: lightblue;">200px</div>
+        <div style="background-color: lightpink;">75px</div>
+    </div>
+
+    <div class="grid-style2">
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: lightpink;">col2</div>
+        <div style="background-color: lightblue;">col3</div>
+    </div>
+
+
+    <div class="grid-style3">
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: lightpink;">col2</div>
+        <div style="background-color: lightblue;">col3</div>
+        <div style="background-color: lightblue;">col4</div>
+        <div style="background-color: lightpink;">col5</div>
+        <div style="background-color: lightblue;">col6</div>
+        <div style="background-color: lightblue;">col7</div>
+        <div style="background-color: lightpink;">col8</div>
+    </div>
+    
+</body>
+</html>

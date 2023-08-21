@@ -1,0 +1,81 @@
+
+.search-bar{
+    font-size: 20px;
+    margin-left: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.search-bar2{
+    font-size: 19px;
+    border: none;
+    width: 500px;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15pxpx;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.emailbar{
+    margin-top: 0px;
+    width: 275px;
+}
+.mail{
+    margin-bottom: 4px;
+}
+.text{
+    font-size: 12px;
+   
+}
+.join-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(57, 57, 204);
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+.cat-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+}
+.tweet-bar{
+   
+    font-size: 18px;
+    border: none;
+    width: 300px;
+}
+.tweet-button{
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #1d9bf0;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+
+}

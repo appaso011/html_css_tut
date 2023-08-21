@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>nested flex</title>
+  <style>
+    .flexbox {
+      display: flex;
+      height: 50px;
+      flex-direction: row;
+      margin-bottom: 40px;
+    }
+
+    .column1 {
+      background-color: lightpink;
+      width: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .item1 {
+      background-color: black;
+      color: white;
+    }
+
+    .column2 {
+      background-color: lightblue;
+      width: 200px;
+    }
+
+    .column11 {
+      width: 100px;
+      background-color: lightpink;
+    }
+
+    .column22 {
+      background-color: lightblue;
+      width: 200px;
+    }
+
+    .item-2-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .row2 {
+      background-color: black;
+      color: white;
+    }
+
+
+    .column111 {
+      width: 100px;
+      background-color: lightpink;
+    }
+
+    .column222 {
+      background-color: lightblue;
+      width: 200px;
+    }
+
+    .item-22-row {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .container {
+      box-shadow: 0 0 5 rgba(0, 0, 0, 0.3);
+      width: 200px;
+      display: flex;
+    }
+   .container1{
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    border-radius: 4px;
+   }
+
+   .sender-profile-pic{
+    height: 50px;
+   }
+  </style>
+</head>
+
+<body>
+  <div class="flexbox">
+    <div class="column1">
+      <div class="item1">item1</div>
+    </div>
+    <div class="column2"> </div>
+  </div>
+
+  <div class="flexbox">
+    <div class="column11"></div>
+    <div class="column22">
+      <div>row1</div>
+      <div class="item-2-row">
+        <div class="row2">row2</div>
+        <div class="row2">row2</div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- new exercise for challenge -->
+
+  <div class="container1">
+    <div class="inbox-label"> All INBOXES</div>
+    <div class="email">
+      <div class="sender-picture-container">
+        <img  class="sender-profile-pic" src="dog1.webp">
+      </div>
+      <div class="email-content">
+        <div class="email-header">
+          <div class="sender-name"> chewey Promotions</div>
+          <div class="send-time">4:58</div>
+        </div>
+        <div class="subject">
+          Biggest sales of the year!
+        </div>
+        <div class="message">
+          Hey there! we're writing to tell you about our.....
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</body>
+
+</html>
